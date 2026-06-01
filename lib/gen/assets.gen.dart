@@ -1,0 +1,989 @@
+// dart format width=80
+
+/// GENERATED CODE - DO NOT MODIFY BY HAND
+/// *****************************************************
+///  FlutterGen
+/// *****************************************************
+
+// coverage:ignore-file
+// ignore_for_file: type=lint
+// ignore_for_file: deprecated_member_use,directives_ordering,implicit_dynamic_list_literal,unnecessary_import
+
+import 'package:flutter/widgets.dart';
+
+class $AssetsIconsGen {
+  const $AssetsIconsGen();
+
+  /// File path: assets/icons/Button Icon (1).svg
+  String get buttonIcon1 => 'assets/icons/Button Icon (1).svg';
+
+  /// File path: assets/icons/Button Icon (2).svg
+  String get buttonIcon2 => 'assets/icons/Button Icon (2).svg';
+
+  /// File path: assets/icons/Frame (1).svg
+  String get frame1 => 'assets/icons/Frame (1).svg';
+
+  /// File path: assets/icons/Frame (2).svg
+  String get frame2 => 'assets/icons/Frame (2).svg';
+
+  /// File path: assets/icons/Frame (3).svg
+  String get frame3 => 'assets/icons/Frame (3).svg';
+
+  /// File path: assets/icons/Frame (5).svg
+  String get frame5 => 'assets/icons/Frame (5).svg';
+
+  /// File path: assets/icons/Frame.svg
+  String get frame => 'assets/icons/Frame.svg';
+
+  /// File path: assets/icons/Icoddn.svg
+  String get icoddn => 'assets/icons/Icoddn.svg';
+
+  /// File path: assets/icons/Icon (1).svg
+  String get icon1 => 'assets/icons/Icon (1).svg';
+
+  /// File path: assets/icons/Icon.svg
+  String get icon => 'assets/icons/Icon.svg';
+
+  /// File path: assets/icons/Monotone add (1).svg
+  String get monotoneAdd1 => 'assets/icons/Monotone add (1).svg';
+
+  /// File path: assets/icons/Monotone add (2).svg
+  String get monotoneAdd2 => 'assets/icons/Monotone add (2).svg';
+
+  /// File path: assets/icons/Monotone add.svg
+  String get monotoneAdd => 'assets/icons/Monotone add.svg';
+
+  /// File path: assets/icons/Or.svg
+  String get or => 'assets/icons/Or.svg';
+
+  /// File path: assets/icons/Polygon (1).svg
+  String get polygon1 => 'assets/icons/Polygon (1).svg';
+
+  /// File path: assets/icons/Polygon.svg
+  String get polygon => 'assets/icons/Polygon.svg';
+
+  /// File path: assets/icons/Span.png
+  AssetGenImage get span => const AssetGenImage('assets/icons/Span.png');
+
+  /// File path: assets/icons/Text.svg
+  String get text => 'assets/icons/Text.svg';
+
+  /// File path: assets/icons/Vector (1).svg
+  String get vector1 => 'assets/icons/Vector (1).svg';
+
+  /// File path: assets/icons/Vector (2).svg
+  String get vector2 => 'assets/icons/Vector (2).svg';
+
+  /// File path: assets/icons/Vector (3).svg
+  String get vector3 => 'assets/icons/Vector (3).svg';
+
+  /// File path: assets/icons/Vector (4).svg
+  String get vector4 => 'assets/icons/Vector (4).svg';
+
+  /// File path: assets/icons/Vector.svg
+  String get vector => 'assets/icons/Vector.svg';
+
+  /// File path: assets/icons/Vectorqq.svg
+  String get vectorqq => 'assets/icons/Vectorqq.svg';
+
+  /// File path: assets/icons/Vectorww.svg
+  String get vectorww => 'assets/icons/Vectorww.svg';
+
+  /// File path: assets/icons/activity running jogging.svg
+  String get activityRunningJogging =>
+      'assets/icons/activity running jogging.svg';
+
+  /// File path: assets/icons/agei.png
+  AssetGenImage get agei => const AssetGenImage('assets/icons/agei.png');
+
+  /// File path: assets/icons/apple_icon.svg
+  String get appleIcon => 'assets/icons/apple_icon.svg';
+
+  /// File path: assets/icons/arrow repeat.svg
+  String get arrowRepeat => 'assets/icons/arrow repeat.svg';
+
+  /// File path: assets/icons/arrow right.svg
+  String get arrowRight => 'assets/icons/arrow right.svg';
+
+  /// File path: assets/icons/arrow sign out.svg
+  String get arrowSignOut => 'assets/icons/arrow sign out.svg';
+
+  /// File path: assets/icons/bread toast.svg
+  String get breadToast => 'assets/icons/bread toast.svg';
+
+  /// File path: assets/icons/cake.svg
+  String get cake => 'assets/icons/cake.svg';
+
+  /// File path: assets/icons/camera.svg
+  String get camera => 'assets/icons/camera.svg';
+
+  /// File path: assets/icons/chevron right.svg
+  String get chevronRight => 'assets/icons/chevron right.svg';
+
+  /// File path: assets/icons/clock.png
+  AssetGenImage get clock => const AssetGenImage('assets/icons/clock.png');
+
+  /// File path: assets/icons/close x.svg
+  String get closeX => 'assets/icons/close x.svg';
+
+  /// File path: assets/icons/download_progress.png
+  AssetGenImage get downloadProgress =>
+      const AssetGenImage('assets/icons/download_progress.png');
+
+  /// File path: assets/icons/edit_icon.svg
+  String get editIcon => 'assets/icons/edit_icon.svg';
+
+  /// File path: assets/icons/egg whole.svg
+  String get eggWhole => 'assets/icons/egg whole.svg';
+
+  /// File path: assets/icons/envelope email.svg
+  String get envelopeEmail => 'assets/icons/envelope email.svg';
+
+  /// File path: assets/icons/eye_off.svg
+  String get eyeOff => 'assets/icons/eye_off.svg';
+
+  /// File path: assets/icons/eye_on.svg
+  String get eyeOn => 'assets/icons/eye_on.svg';
+
+  /// File path: assets/icons/fire.png
+  AssetGenImage get firePng => const AssetGenImage('assets/icons/fire.png');
+
+  /// File path: assets/icons/fire.svg
+  String get fireSvg => 'assets/icons/fire.svg';
+
+  /// File path: assets/icons/fires simple.svg
+  String get firesSimple => 'assets/icons/fires simple.svg';
+
+  /// File path: assets/icons/fish.svg
+  String get fish => 'assets/icons/fish.svg';
+
+  /// File path: assets/icons/gallery.svg
+  String get gallery => 'assets/icons/gallery.svg';
+
+  /// File path: assets/icons/handle.png
+  AssetGenImage get handle => const AssetGenImage('assets/icons/handle.png');
+
+  /// File path: assets/icons/health plus alt.svg
+  String get healthPlusAlt => 'assets/icons/health plus alt.svg';
+
+  /// File path: assets/icons/heighti.png
+  AssetGenImage get heighti => const AssetGenImage('assets/icons/heighti.png');
+
+  /// File path: assets/icons/ic_round-plus.svg
+  String get icRoundPlus => 'assets/icons/ic_round-plus.svg';
+
+  /// File path: assets/icons/image (1).svg
+  String get image1 => 'assets/icons/image (1).svg';
+
+  /// File path: assets/icons/image (2).svg
+  String get image2 => 'assets/icons/image (2).svg';
+
+  /// File path: assets/icons/image (3).svg
+  String get image3 => 'assets/icons/image (3).svg';
+
+  /// File path: assets/icons/image 1807.svg
+  String get image1807 => 'assets/icons/image 1807.svg';
+
+  /// File path: assets/icons/image.svg
+  String get image => 'assets/icons/image.svg';
+
+  /// File path: assets/icons/info-circle.svg
+  String get infoCircle => 'assets/icons/info-circle.svg';
+
+  /// File path: assets/icons/info.svg
+  String get info => 'assets/icons/info.svg';
+
+  /// File path: assets/icons/lactose.svg
+  String get lactose => 'assets/icons/lactose.svg';
+
+  /// File path: assets/icons/lock locked.svg
+  String get lockLocked => 'assets/icons/lock locked.svg';
+
+  /// File path: assets/icons/lock.png
+  AssetGenImage get lock => const AssetGenImage('assets/icons/lock.png');
+
+  /// File path: assets/icons/logos.svg
+  String get logos => 'assets/icons/logos.svg';
+
+  /// File path: assets/icons/logos2.png
+  AssetGenImage get logos2 => const AssetGenImage('assets/icons/logos2.png');
+
+  /// File path: assets/icons/logos_facebook.svg
+  String get logosFacebook => 'assets/icons/logos_facebook.svg';
+
+  /// File path: assets/icons/music.svg
+  String get music => 'assets/icons/music.svg';
+
+  /// File path: assets/icons/next.svg
+  String get next => 'assets/icons/next.svg';
+
+  /// File path: assets/icons/noti.png
+  AssetGenImage get noti => const AssetGenImage('assets/icons/noti.png');
+
+  /// File path: assets/icons/pause.svg
+  String get pause => 'assets/icons/pause.svg';
+
+  /// File path: assets/icons/premium_icon.png
+  AssetGenImage get premiumIcon =>
+      const AssetGenImage('assets/icons/premium_icon.png');
+
+  /// File path: assets/icons/previous.svg
+  String get previous => 'assets/icons/previous.svg';
+
+  /// File path: assets/icons/protine.svg
+  String get protine => 'assets/icons/protine.svg';
+
+  /// File path: assets/icons/ques.svg
+  String get ques => 'assets/icons/ques.svg';
+
+  /// File path: assets/icons/question mark circle.svg
+  String get questionMarkCircle => 'assets/icons/question mark circle.svg';
+
+  /// File path: assets/icons/right_arrows.svg
+  String get rightArrows => 'assets/icons/right_arrows.svg';
+
+  /// File path: assets/icons/ruler.svg
+  String get ruler => 'assets/icons/ruler.svg';
+
+  /// File path: assets/icons/sound on.svg
+  String get soundOn => 'assets/icons/sound on.svg';
+
+  /// File path: assets/icons/timer.png
+  AssetGenImage get timer => const AssetGenImage('assets/icons/timer.png');
+
+  /// File path: assets/icons/transport rocket diagonal.svg
+  String get transportRocketDiagonal =>
+      'assets/icons/transport rocket diagonal.svg';
+
+  /// File path: assets/icons/trash.svg
+  String get trash => 'assets/icons/trash.svg';
+
+  /// File path: assets/icons/upload.svg
+  String get upload => 'assets/icons/upload.svg';
+
+  /// File path: assets/icons/user single.svg
+  String get userSingle => 'assets/icons/user single.svg';
+
+  /// File path: assets/icons/water glass.svg
+  String get waterGlass => 'assets/icons/water glass.svg';
+
+  /// File path: assets/icons/weight scale.svg
+  String get weightScale => 'assets/icons/weight scale.svg';
+
+  /// File path: assets/icons/weighti.png
+  AssetGenImage get weighti => const AssetGenImage('assets/icons/weighti.png');
+
+  /// File path: assets/icons/wheat.svg
+  String get wheat => 'assets/icons/wheat.svg';
+
+  /// File path: assets/icons/zoom.svg
+  String get zoom => 'assets/icons/zoom.svg';
+
+  /// List of all assets
+  List<dynamic> get values => [
+    buttonIcon1,
+    buttonIcon2,
+    frame1,
+    frame2,
+    frame3,
+    frame5,
+    frame,
+    icoddn,
+    icon1,
+    icon,
+    monotoneAdd1,
+    monotoneAdd2,
+    monotoneAdd,
+    or,
+    polygon1,
+    polygon,
+    span,
+    text,
+    vector1,
+    vector2,
+    vector3,
+    vector4,
+    vector,
+    vectorqq,
+    vectorww,
+    activityRunningJogging,
+    agei,
+    appleIcon,
+    arrowRepeat,
+    arrowRight,
+    arrowSignOut,
+    breadToast,
+    cake,
+    camera,
+    chevronRight,
+    clock,
+    closeX,
+    downloadProgress,
+    editIcon,
+    eggWhole,
+    envelopeEmail,
+    eyeOff,
+    eyeOn,
+    firePng,
+    fireSvg,
+    firesSimple,
+    fish,
+    gallery,
+    handle,
+    healthPlusAlt,
+    heighti,
+    icRoundPlus,
+    image1,
+    image2,
+    image3,
+    image1807,
+    image,
+    infoCircle,
+    info,
+    lactose,
+    lockLocked,
+    lock,
+    logos,
+    logos2,
+    logosFacebook,
+    music,
+    next,
+    noti,
+    pause,
+    premiumIcon,
+    previous,
+    protine,
+    ques,
+    questionMarkCircle,
+    rightArrows,
+    ruler,
+    soundOn,
+    timer,
+    transportRocketDiagonal,
+    trash,
+    upload,
+    userSingle,
+    waterGlass,
+    weightScale,
+    weighti,
+    wheat,
+    zoom,
+  ];
+}
+
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/Card (1).png
+  AssetGenImage get card1 => const AssetGenImage('assets/images/Card (1).png');
+
+  /// File path: assets/images/Card (2).png
+  AssetGenImage get card2 => const AssetGenImage('assets/images/Card (2).png');
+
+  /// File path: assets/images/Card.png
+  AssetGenImage get card => const AssetGenImage('assets/images/Card.png');
+
+  /// File path: assets/images/Container.png
+  AssetGenImage get container =>
+      const AssetGenImage('assets/images/Container.png');
+
+  /// File path: assets/images/Frame (1).png
+  AssetGenImage get frame1 =>
+      const AssetGenImage('assets/images/Frame (1).png');
+
+  /// File path: assets/images/Frame (10).png
+  AssetGenImage get frame10 =>
+      const AssetGenImage('assets/images/Frame (10).png');
+
+  /// File path: assets/images/Frame (11).png
+  AssetGenImage get frame11 =>
+      const AssetGenImage('assets/images/Frame (11).png');
+
+  /// File path: assets/images/Frame (2).png
+  AssetGenImage get frame2 =>
+      const AssetGenImage('assets/images/Frame (2).png');
+
+  /// File path: assets/images/Frame (3).png
+  AssetGenImage get frame3 =>
+      const AssetGenImage('assets/images/Frame (3).png');
+
+  /// File path: assets/images/Frame (4).png
+  AssetGenImage get frame4 =>
+      const AssetGenImage('assets/images/Frame (4).png');
+
+  /// File path: assets/images/Frame 2147224380.png
+  AssetGenImage get frame2147224380 =>
+      const AssetGenImage('assets/images/Frame 2147224380.png');
+
+  /// File path: assets/images/Rectangle 34624174 (1).png
+  AssetGenImage get rectangle346241741 =>
+      const AssetGenImage('assets/images/Rectangle 34624174 (1).png');
+
+  /// File path: assets/images/Rectangle 34624174.png
+  AssetGenImage get rectangle34624174 =>
+      const AssetGenImage('assets/images/Rectangle 34624174.png');
+
+  /// File path: assets/images/Rectangle 34624225.png
+  AssetGenImage get rectangle34624225 =>
+      const AssetGenImage('assets/images/Rectangle 34624225.png');
+
+  /// File path: assets/images/Rectangle 34624226.png
+  AssetGenImage get rectangle34624226 =>
+      const AssetGenImage('assets/images/Rectangle 34624226.png');
+
+  /// File path: assets/images/Rectangle 34624227.png
+  AssetGenImage get rectangle34624227 =>
+      const AssetGenImage('assets/images/Rectangle 34624227.png');
+
+  /// File path: assets/images/Rectangle 34624229.png
+  AssetGenImage get rectangle34624229 =>
+      const AssetGenImage('assets/images/Rectangle 34624229.png');
+
+  /// File path: assets/images/Rectangle.png
+  AssetGenImage get rectangle =>
+      const AssetGenImage('assets/images/Rectangle.png');
+
+  /// File path: assets/images/Text.png
+  AssetGenImage get text => const AssetGenImage('assets/images/Text.png');
+
+  /// File path: assets/images/abdomen.png
+  AssetGenImage get abdomen => const AssetGenImage('assets/images/abdomen.png');
+
+  /// File path: assets/images/abs.png
+  AssetGenImage get abs => const AssetGenImage('assets/images/abs.png');
+
+  /// File path: assets/images/app_logo.jpg
+  AssetGenImage get appLogo =>
+      const AssetGenImage('assets/images/app_logo.jpg');
+
+  /// File path: assets/images/back_posture.png
+  AssetGenImage get backPosture =>
+      const AssetGenImage('assets/images/back_posture.png');
+
+  /// File path: assets/images/biceps.png
+  AssetGenImage get biceps => const AssetGenImage('assets/images/biceps.png');
+
+  /// File path: assets/images/button.png
+  AssetGenImage get button => const AssetGenImage('assets/images/button.png');
+
+  /// File path: assets/images/button1111.png
+  AssetGenImage get button1111 =>
+      const AssetGenImage('assets/images/button1111.png');
+
+  /// File path: assets/images/car.png
+  AssetGenImage get car => const AssetGenImage('assets/images/car.png');
+
+  /// File path: assets/images/chevron right.png
+  AssetGenImage get chevronRight =>
+      const AssetGenImage('assets/images/chevron right.png');
+
+  /// File path: assets/images/fireIocn.png
+  AssetGenImage get fireIocn =>
+      const AssetGenImage('assets/images/fireIocn.png');
+
+  /// File path: assets/images/food.png
+  AssetGenImage get food => const AssetGenImage('assets/images/food.png');
+
+  /// File path: assets/images/fooodddd.png
+  AssetGenImage get fooodddd =>
+      const AssetGenImage('assets/images/fooodddd.png');
+
+  /// File path: assets/images/frame_bell_icon.png
+  AssetGenImage get frameBellIcon =>
+      const AssetGenImage('assets/images/frame_bell_icon.png');
+
+  /// File path: assets/images/group.png
+  AssetGenImage get group => const AssetGenImage('assets/images/group.png');
+
+  /// File path: assets/images/image (1).png
+  AssetGenImage get image1 =>
+      const AssetGenImage('assets/images/image (1).png');
+
+  /// File path: assets/images/image (2).png
+  AssetGenImage get image2 =>
+      const AssetGenImage('assets/images/image (2).png');
+
+  /// File path: assets/images/image (3).png
+  AssetGenImage get image3 =>
+      const AssetGenImage('assets/images/image (3).png');
+
+  /// File path: assets/images/image 1807.png
+  AssetGenImage get image1807 =>
+      const AssetGenImage('assets/images/image 1807.png');
+
+  /// File path: assets/images/image.png
+  AssetGenImage get image => const AssetGenImage('assets/images/image.png');
+
+  /// File path: assets/images/image22.png
+  AssetGenImage get image22 => const AssetGenImage('assets/images/image22.png');
+
+  /// File path: assets/images/image_copy.png
+  AssetGenImage get imageCopy =>
+      const AssetGenImage('assets/images/image_copy.png');
+
+  /// File path: assets/images/images232.png
+  AssetGenImage get images232 =>
+      const AssetGenImage('assets/images/images232.png');
+
+  /// File path: assets/images/instant_update.png
+  AssetGenImage get instantUpdate =>
+      const AssetGenImage('assets/images/instant_update.png');
+
+  /// File path: assets/images/intense.png
+  AssetGenImage get intense => const AssetGenImage('assets/images/intense.png');
+
+  /// File path: assets/images/into_shape.png
+  AssetGenImage get intoShape =>
+      const AssetGenImage('assets/images/into_shape.png');
+
+  /// File path: assets/images/leg.png
+  AssetGenImage get leg => const AssetGenImage('assets/images/leg.png');
+
+  /// File path: assets/images/legs.png
+  AssetGenImage get legs => const AssetGenImage('assets/images/legs.png');
+
+  /// File path: assets/images/light_walk.png
+  AssetGenImage get lightWalk =>
+      const AssetGenImage('assets/images/light_walk.png');
+
+  /// File path: assets/images/like_icon.png
+  AssetGenImage get likeIcon =>
+      const AssetGenImage('assets/images/like_icon.png');
+
+  /// File path: assets/images/logo.png
+  AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
+
+  /// File path: assets/images/lostt_weight.png
+  AssetGenImage get losttWeight =>
+      const AssetGenImage('assets/images/lostt_weight.png');
+
+  /// File path: assets/images/mask.png
+  AssetGenImage get mask => const AssetGenImage('assets/images/mask.png');
+
+  /// File path: assets/images/moderate.png
+  AssetGenImage get moderate =>
+      const AssetGenImage('assets/images/moderate.png');
+
+  /// File path: assets/images/no_image_available.png
+  AssetGenImage get noImageAvailable =>
+      const AssetGenImage('assets/images/no_image_available.png');
+
+  /// File path: assets/images/noboard_12_1.png
+  AssetGenImage get noboard121 =>
+      const AssetGenImage('assets/images/noboard_12_1.png');
+
+  /// File path: assets/images/noboard_12_2.png
+  AssetGenImage get noboard122 =>
+      const AssetGenImage('assets/images/noboard_12_2.png');
+
+  /// File path: assets/images/noboard_12_3.png
+  AssetGenImage get noboard123 =>
+      const AssetGenImage('assets/images/noboard_12_3.png');
+
+  /// File path: assets/images/oboard6.png
+  AssetGenImage get oboard6 => const AssetGenImage('assets/images/oboard6.png');
+
+  /// File path: assets/images/on1 copy.png
+  AssetGenImage get on1Copy =>
+      const AssetGenImage('assets/images/on1 copy.png');
+
+  /// File path: assets/images/on1.png
+  AssetGenImage get on1 => const AssetGenImage('assets/images/on1.png');
+
+  /// File path: assets/images/on2 copy.png
+  AssetGenImage get on2Copy =>
+      const AssetGenImage('assets/images/on2 copy.png');
+
+  /// File path: assets/images/on2.png
+  AssetGenImage get on2 => const AssetGenImage('assets/images/on2.png');
+
+  /// File path: assets/images/on3 copy.png
+  AssetGenImage get on3Copy =>
+      const AssetGenImage('assets/images/on3 copy.png');
+
+  /// File path: assets/images/on3.png
+  AssetGenImage get on3 => const AssetGenImage('assets/images/on3.png');
+
+  /// File path: assets/images/on4.png
+  AssetGenImage get on4 => const AssetGenImage('assets/images/on4.png');
+
+  /// File path: assets/images/on5.png
+  AssetGenImage get on5 => const AssetGenImage('assets/images/on5.png');
+
+  /// File path: assets/images/onboard11.png
+  AssetGenImage get onboard11 =>
+      const AssetGenImage('assets/images/onboard11.png');
+
+  /// File path: assets/images/onboard14.png
+  AssetGenImage get onboard14 =>
+      const AssetGenImage('assets/images/onboard14.png');
+
+  /// File path: assets/images/onboard_13_1.png
+  AssetGenImage get onboard131 =>
+      const AssetGenImage('assets/images/onboard_13_1.png');
+
+  /// File path: assets/images/onboard_13_2.png
+  AssetGenImage get onboard132 =>
+      const AssetGenImage('assets/images/onboard_13_2.png');
+
+  /// File path: assets/images/onboard_13_3.png
+  AssetGenImage get onboard133 =>
+      const AssetGenImage('assets/images/onboard_13_3.png');
+
+  /// File path: assets/images/onboard_13_4.png
+  AssetGenImage get onboard134 =>
+      const AssetGenImage('assets/images/onboard_13_4.png');
+
+  /// File path: assets/images/onboard_15_1.png
+  AssetGenImage get onboard151 =>
+      const AssetGenImage('assets/images/onboard_15_1.png');
+
+  /// File path: assets/images/onboard_15_2.png
+  AssetGenImage get onboard152 =>
+      const AssetGenImage('assets/images/onboard_15_2.png');
+
+  /// File path: assets/images/onboard_15_3.png
+  AssetGenImage get onboard153 =>
+      const AssetGenImage('assets/images/onboard_15_3.png');
+
+  /// File path: assets/images/onboard_15_4.png
+  AssetGenImage get onboard154 =>
+      const AssetGenImage('assets/images/onboard_15_4.png');
+
+  /// File path: assets/images/onboard_16.png
+  AssetGenImage get onboard16 =>
+      const AssetGenImage('assets/images/onboard_16.png');
+
+  /// File path: assets/images/onboard_4_1.png
+  AssetGenImage get onboard41 =>
+      const AssetGenImage('assets/images/onboard_4_1.png');
+
+  /// File path: assets/images/onboard_4_2.png
+  AssetGenImage get onboard42 =>
+      const AssetGenImage('assets/images/onboard_4_2.png');
+
+  /// File path: assets/images/onboard_4_3.png
+  AssetGenImage get onboard43 =>
+      const AssetGenImage('assets/images/onboard_4_3.png');
+
+  /// File path: assets/images/onboard_5_1.png
+  AssetGenImage get onboard51 =>
+      const AssetGenImage('assets/images/onboard_5_1.png');
+
+  /// File path: assets/images/onboard_5_2.png
+  AssetGenImage get onboard52 =>
+      const AssetGenImage('assets/images/onboard_5_2.png');
+
+  /// File path: assets/images/onboard_5_3.png
+  AssetGenImage get onboard53 =>
+      const AssetGenImage('assets/images/onboard_5_3.png');
+
+  /// File path: assets/images/onboarding_3.png
+  AssetGenImage get onboarding3 =>
+      const AssetGenImage('assets/images/onboarding_3.png');
+
+  /// File path: assets/images/pause-button.png
+  AssetGenImage get pauseButton =>
+      const AssetGenImage('assets/images/pause-button.png');
+
+  /// File path: assets/images/pes.png
+  AssetGenImage get pes => const AssetGenImage('assets/images/pes.png');
+
+  /// File path: assets/images/play-button.png
+  AssetGenImage get playButton =>
+      const AssetGenImage('assets/images/play-button.png');
+
+  /// File path: assets/images/pnboard11.png
+  AssetGenImage get pnboard11 =>
+      const AssetGenImage('assets/images/pnboard11.png');
+
+  /// File path: assets/images/rating.png
+  AssetGenImage get rating => const AssetGenImage('assets/images/rating.png');
+
+  /// File path: assets/images/reduce_pain.png
+  AssetGenImage get reducePain =>
+      const AssetGenImage('assets/images/reduce_pain.png');
+
+  /// File path: assets/images/res.png
+  AssetGenImage get res => const AssetGenImage('assets/images/res.png');
+
+  /// File path: assets/images/restore.png
+  AssetGenImage get restore => const AssetGenImage('assets/images/restore.png');
+
+  /// File path: assets/images/sen.png
+  AssetGenImage get sen => const AssetGenImage('assets/images/sen.png');
+
+  /// File path: assets/images/shoulders.png
+  AssetGenImage get shoulders =>
+      const AssetGenImage('assets/images/shoulders.png');
+
+  /// File path: assets/images/slep.png
+  AssetGenImage get slep => const AssetGenImage('assets/images/slep.png');
+
+  /// File path: assets/images/ss.png
+  AssetGenImage get ss => const AssetGenImage('assets/images/ss.png');
+
+  /// File path: assets/images/trible short.png
+  AssetGenImage get tribleShort =>
+      const AssetGenImage('assets/images/trible short.png');
+
+  /// File path: assets/images/veg.png
+  AssetGenImage get veg => const AssetGenImage('assets/images/veg.png');
+
+  /// File path: assets/images/vegetian.png
+  AssetGenImage get vegetian =>
+      const AssetGenImage('assets/images/vegetian.png');
+
+  /// File path: assets/images/watchicon.png
+  AssetGenImage get watchicon =>
+      const AssetGenImage('assets/images/watchicon.png');
+
+  /// File path: assets/images/whole_body.png
+  AssetGenImage get wholeBody =>
+      const AssetGenImage('assets/images/whole_body.png');
+
+  /// File path: assets/images/womens_bg.png
+  AssetGenImage get womensBg =>
+      const AssetGenImage('assets/images/womens_bg.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+    card1,
+    card2,
+    card,
+    container,
+    frame1,
+    frame10,
+    frame11,
+    frame2,
+    frame3,
+    frame4,
+    frame2147224380,
+    rectangle346241741,
+    rectangle34624174,
+    rectangle34624225,
+    rectangle34624226,
+    rectangle34624227,
+    rectangle34624229,
+    rectangle,
+    text,
+    abdomen,
+    abs,
+    appLogo,
+    backPosture,
+    biceps,
+    button,
+    button1111,
+    car,
+    chevronRight,
+    fireIocn,
+    food,
+    fooodddd,
+    frameBellIcon,
+    group,
+    image1,
+    image2,
+    image3,
+    image1807,
+    image,
+    image22,
+    imageCopy,
+    images232,
+    instantUpdate,
+    intense,
+    intoShape,
+    leg,
+    legs,
+    lightWalk,
+    likeIcon,
+    logo,
+    losttWeight,
+    mask,
+    moderate,
+    noImageAvailable,
+    noboard121,
+    noboard122,
+    noboard123,
+    oboard6,
+    on1Copy,
+    on1,
+    on2Copy,
+    on2,
+    on3Copy,
+    on3,
+    on4,
+    on5,
+    onboard11,
+    onboard14,
+    onboard131,
+    onboard132,
+    onboard133,
+    onboard134,
+    onboard151,
+    onboard152,
+    onboard153,
+    onboard154,
+    onboard16,
+    onboard41,
+    onboard42,
+    onboard43,
+    onboard51,
+    onboard52,
+    onboard53,
+    onboarding3,
+    pauseButton,
+    pes,
+    playButton,
+    pnboard11,
+    rating,
+    reducePain,
+    res,
+    restore,
+    sen,
+    shoulders,
+    slep,
+    ss,
+    tribleShort,
+    veg,
+    vegetian,
+    watchicon,
+    wholeBody,
+    womensBg,
+  ];
+}
+
+class $AssetsLottieGen {
+  const $AssetsLottieGen();
+
+  /// File path: assets/lottie/Wede_Animation.json
+  String get wedeAnimation => 'assets/lottie/Wede_Animation.json';
+
+  /// File path: assets/lottie/hamburger.json
+  String get hamburger => 'assets/lottie/hamburger.json';
+
+  /// File path: assets/lottie/image_shimmer.json
+  String get imageShimmer => 'assets/lottie/image_shimmer.json';
+
+  /// File path: assets/lottie/loading.json
+  String get loading => 'assets/lottie/loading.json';
+
+  /// File path: assets/lottie/loading_spinner.json
+  String get loadingSpinner => 'assets/lottie/loading_spinner.json';
+
+  /// File path: assets/lottie/loading_spinner_alt.json
+  String get loadingSpinnerAlt => 'assets/lottie/loading_spinner_alt.json';
+
+  /// File path: assets/lottie/remove_from_cart.json
+  String get removeFromCart => 'assets/lottie/remove_from_cart.json';
+
+  /// File path: assets/lottie/success.json
+  String get success => 'assets/lottie/success.json';
+
+  /// List of all assets
+  List<String> get values => [
+    wedeAnimation,
+    hamburger,
+    imageShimmer,
+    loading,
+    loadingSpinner,
+    loadingSpinnerAlt,
+    removeFromCart,
+    success,
+  ];
+}
+
+class Assets {
+  const Assets._();
+
+  static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsLottieGen lottie = $AssetsLottieGen();
+}
+
+class AssetGenImage {
+  const AssetGenImage(
+    this._assetName, {
+    this.size,
+    this.flavors = const {},
+    this.animation,
+  });
+
+  final String _assetName;
+
+  final Size? size;
+  final Set<String> flavors;
+  final AssetGenImageAnimation? animation;
+
+  Image image({
+    Key? key,
+    AssetBundle? bundle,
+    ImageFrameBuilder? frameBuilder,
+    ImageErrorWidgetBuilder? errorBuilder,
+    String? semanticLabel,
+    bool excludeFromSemantics = false,
+    double? scale,
+    double? width,
+    double? height,
+    Color? color,
+    Animation<double>? opacity,
+    BlendMode? colorBlendMode,
+    BoxFit? fit,
+    AlignmentGeometry alignment = Alignment.center,
+    ImageRepeat repeat = ImageRepeat.noRepeat,
+    Rect? centerSlice,
+    bool matchTextDirection = false,
+    bool gaplessPlayback = true,
+    bool isAntiAlias = false,
+    String? package,
+    FilterQuality filterQuality = FilterQuality.medium,
+    int? cacheWidth,
+    int? cacheHeight,
+  }) {
+    return Image.asset(
+      _assetName,
+      key: key,
+      bundle: bundle,
+      frameBuilder: frameBuilder,
+      errorBuilder: errorBuilder,
+      semanticLabel: semanticLabel,
+      excludeFromSemantics: excludeFromSemantics,
+      scale: scale,
+      width: width,
+      height: height,
+      color: color,
+      opacity: opacity,
+      colorBlendMode: colorBlendMode,
+      fit: fit,
+      alignment: alignment,
+      repeat: repeat,
+      centerSlice: centerSlice,
+      matchTextDirection: matchTextDirection,
+      gaplessPlayback: gaplessPlayback,
+      isAntiAlias: isAntiAlias,
+      package: package,
+      filterQuality: filterQuality,
+      cacheWidth: cacheWidth,
+      cacheHeight: cacheHeight,
+    );
+  }
+
+  ImageProvider provider({AssetBundle? bundle, String? package}) {
+    return AssetImage(_assetName, bundle: bundle, package: package);
+  }
+
+  String get path => _assetName;
+
+  String get keyName => _assetName;
+}
+
+class AssetGenImageAnimation {
+  const AssetGenImageAnimation({
+    required this.isAnimation,
+    required this.duration,
+    required this.frames,
+  });
+
+  final bool isAnimation;
+  final Duration duration;
+  final int frames;
+}

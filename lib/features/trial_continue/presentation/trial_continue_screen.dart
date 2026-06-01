@@ -1,0 +1,226 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:gritti_app/common_widget/waiting_widget.dart';
+import 'package:gritti_app/features/trial_continue/widgets/timeline_stepper_widget.dart';
+import 'package:gritti_app/gen/assets.gen.dart';
+import 'package:gritti_app/helpers/all_routes.dart';
+import 'package:gritti_app/helpers/navigation_service.dart';
+import 'package:intl/intl.dart';
+import '../../../common_widget/custom_button.dart';
+import '../../../constants/text_font_style.dart';
+import '../../../helpers/toast.dart';
+import '../../../helpers/ui_helpers.dart';
+import '../../../networks/api_acess.dart';
+import '../data/rx_get_plan/model/plan_response_model.dart';
+
+class TrialContinueScreen extends StatefulWidget {
+  const TrialContinueScreen({super.key});
+
+  @override
+  State<TrialContinueScreen> createState() => _TrialContinueScreenState();
+}
+
+class _TrialContinueScreenState extends State<TrialContinueScreen> {
+  bool isChecked = false;
+
+  void toogleChange(bool value) {
+    setState(() {
+      isChecked = value;
+    });
+  }
+
+  bool isSelected = false;
+
+  int? selectedIndex; // 0 = Monthly, 1 = Yearly
+
+  @override
+  void initState() {
+    super.initState();
+    plannRxObj.planRx();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    DateTime today = DateTime.now();
+    DateTime lastDay = today.add(const Duration(days: 3));
+    String formattedDate = DateFormat('d MMMM yyyy').format(lastDay);
+
+    return Scaffold(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.symmetric(horizontal: 20.w),
+        physics: BouncingScrollPhysics(),
+        child: SafeArea(
+          child: StreamBuilder<PlanResponseModel>(
+            stream: plannRxObj.planRxStream,
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return WaitingWidget();
+              } else if (snapshot.hasError) {
+                return Center(
+                  child: Text(
+                    "Something went wrong",
+                    textAlign: TextAlign.center,
+                    style: TextFontStyle.headLine16cFFFFFFWorkSansW600.copyWith(
+                      color: Colors.red,
+                      fontSize: 30.sp,
+                    ),
+                  ),
+                );
+              } else if (!snapshot.hasData || snapshot.data!.data!.isEmpty) {
+                return Center(
+                  child: Text(
+                    "Data is not available",
+                    textAlign: TextAlign.center,
+                    style: TextFontStyle.headLine16cFFFFFFWorkSansW600.copyWith(
+                      color: Colors.red,
+                      fontSize: 30.sp,
+                    ),
+                  ),
+                );
+              } else if (snapshot.hasData) {
+                return Column(
+                  children: [
+                    UIHelper.verticalSpace(20.h),
+                    Align(
+                      alignment: Alignment.topCenter,
+                      child: Text(
+                        "Start your 3-day FREE trial to continue",
+                        textAlign: TextAlign.center,
+                        style: TextFontStyle.headLine16cFFFFFFWorkSansW600
+                            .copyWith(
+                              color: const Color(0xFF000000),
+                              fontSize: 30.sp,
+                              fontWeight: FontWeight.w600,
+                            ),
+                      ),
+                    ),
+
+                    UIHelper.verticalSpace(50.h),
+
+                    TimelineStepperWidget(date3Days: formattedDate),
+
+                    UIHelper.verticalSpace(50.h),
+
+                    SizedBox(
+                      height: 150.h,
+                      child: ListView.separated(
+                        scrollDirection: Axis.horizontal,
+                        itemCount: snapshot.data!.data!.length,
+                        separatorBuilder: (_, _) => SizedBox(width: 20.w),
+                        itemBuilder: (context, index) {
+                          final plan = snapshot.data?.data?[index];
+
+                          return SizedBox(
+                            width: MediaQuery.of(context).size.width * 0.42,
+                            child: InkWell(
+                              onTap: () {
+                                setState(() {
+                                  selectedIndex = plan?.id;
+                                });
+                              },
+                              child: Container(
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 16.w,
+                                  vertical: 16.h,
+                                ),
+                                decoration: BoxDecoration(
+                                  border: Border.all(
+                                    width: 3.w,
+                                    color:
+                                        selectedIndex == plan?.id
+                                            ? Color(0xFFE2448B)
+                                            : Colors.transparent,
+                                  ),
+                                  color: Color(0xFFFFDFF0),
+                                  borderRadius: BorderRadius.circular(14.r),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  spacing: 10.h,
+                                  children: [
+                                    Text(
+                                      plan?.interval ?? "",
+                                      style: TextFontStyle
+                                          .headLine16cFFFFFFWorkSansThinW600
+                                          .copyWith(
+                                            fontSize: 14.sp,
+                                            color: Colors.black,
+                                          ),
+                                    ),
+                                    Text(
+                                      "${plan?.price.toString() ?? ""} / ${plan?.interval ?? ""}",
+                                      style: TextFontStyle
+                                          .headLine16cFFFFFFWorkSansW600
+                                          .copyWith(
+                                            fontSize: 24.sp,
+                                            fontWeight: FontWeight.w800,
+                                            color: Colors.black,
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+
+                    UIHelper.verticalSpace(20.h),
+
+                    CustomButton(
+                      onPressed: () async {
+                        if (selectedIndex == null) {
+                          ToastUtil.showErrorShortToast(
+                            "Please select an Package.",
+                          );
+                        } else {
+                          NavigationService.navigateToReplacement(
+                            Routes.navigationScreen,
+                          );
+                        }
+                      },
+                      child: Row(
+                        spacing: 10.w,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "Continue for FREE",
+                            style: TextFontStyle.headLine16cFFFFFFWorkSansW600,
+                          ),
+
+                          SvgPicture.asset(
+                            Assets.icons.rightArrows,
+                            width: 20.w,
+                            height: 20.h,
+                            fit: BoxFit.cover,
+                          ),
+                        ],
+                      ),
+                    ),
+
+                    UIHelper.verticalSpace(10.h),
+
+                    Text(
+                      "3 days free, then €69.99 per year (€4.75 /mo)",
+                      textAlign: TextAlign.center,
+                      style: TextFontStyle.headLine16cFFFFFFWorkSansThinW600
+                          .copyWith(
+                            color: const Color(0xFF000000),
+                            fontSize: 14.sp,
+                            fontWeight: FontWeight.w600,
+                          ),
+                    ),
+                  ],
+                );
+              } else {
+                return SizedBox.shrink();
+              }
+            },
+          ),
+        ),
+      ),
+    );
+  }
+}

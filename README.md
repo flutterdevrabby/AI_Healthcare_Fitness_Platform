@@ -11,7 +11,7 @@ A smart, AI-driven mobile application designed for comprehensive health tracking
       <th align="center">Signin Screen</th>
     </tr>
     <tr>
-      <td align="center" valign="top"><img src="assets/screenshot/signup/Welcome.png" width="260" alt="Welcome Screen"></td>
+      <td align="center" valign="top"><img src="assets/screenshot/signup/welcome.png" width="260" alt="Welcome Screen"></td>
       <td align="center" valign="top"><img src="assets/screenshot/signup/signup.png" width="260" alt="Signup Screen"></td>
       <td align="center" valign="top"><img src="assets/screenshot/signup/signup.png" width="260" alt="Signin Screen"></td>
     </tr>
